@@ -1,0 +1,32 @@
+/* ---- Logo ---- */
+@import '@resources';
+
+.wrapper {
+    @include flexible();
+    @include transition();
+    width: fit-content;
+    cursor: pointer;
+
+    &:hover {
+        @include transition();
+        opacity: 0.8;
+        cursor: pointer;
+    }
+}
+
+.icon {
+        @include transition();
+    display: block;
+    width: 133px;
+    overflow: hidden;
+
+    &:hover {
+        @include transition();
+        opacity: 0.8;
+        cursor: pointer;
+    }
+
+    & svg {
+        overflow: hidden;
+    }
+}

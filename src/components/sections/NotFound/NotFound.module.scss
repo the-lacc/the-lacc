@@ -1,0 +1,61 @@
+@import "@resources";
+
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 100px;
+
+    @include mq($phablet) {
+        margin-top: 50px;
+    }
+}
+
+.title {
+    @include font-size(160px);
+    color: $theme-color;
+
+    @include mq($phone) {
+        @include font-size(120px);
+    }
+}
+
+.description {
+    @include font-size(40px);
+    text-align: center;
+
+    @include mq($phone) {
+        @include font-size(16px);
+    }
+}
+
+.button {
+    max-width: 500px;
+    margin: 50px auto 0;
+
+    @include mq($tablet-large) {
+        max-width: 300px;
+    }
+
+    @include mq($phablet) {
+        width: 80%;
+        padding: 10px 0;
+        margin-top: 25px;
+    }
+
+    @include mq($phone) {
+        @include font-size(18px);
+    }
+}
+
+.image {
+    position: relative;
+    width: 408px;
+    height: 391px;
+    margin: 0 auto 20px;
+
+    @include mq($phablet) {
+        width: 250px;
+        height: 240px;
+    }
+}
