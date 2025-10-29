@@ -34,8 +34,8 @@ const RootLayout: FC<Props> = ({ children }) => {
       <body>
         <ProviderLayout>{children}</ProviderLayout>
       </body>
-      <GoogleAnalytics gaId="G-" />
-      <GoogleTagManager gtmId="GTM-" />
+      <GoogleAnalytics gaId="G-EZSMPG007M" />
+      <GoogleTagManager gtmId="GTM-P8RCHDHG" />
     </html>
   );
 };
