@@ -1,5 +1,5 @@
-const BOT_TOKEN = '';
-const CHAT_ID = '';
+const BOT_TOKEN = '8437056790:AAGYyKLHiyYonJcVdHnhnz5kkZ02RsoarsM';
+const CHAT_ID = '-1003071905321';
 
 const sendMessage = async (message: any) => {
     const url = `https://api.telegram.org/bot${BOT_TOKEN}/sendMessage`;
