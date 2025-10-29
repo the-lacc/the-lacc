@@ -1,0 +1,8 @@
+/* ---- Global ---- */
+@import "resources";
+@import "resources/specification";
+
+body.scroll-lock {
+  overflow: hidden;
+  height: 100vh;
+}
