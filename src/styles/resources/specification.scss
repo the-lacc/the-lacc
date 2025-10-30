@@ -97,6 +97,14 @@ h4 {
 
 p {
     @include reset-indents();
+
+    @include mq($tablet) {
+        @include font-size(18px);
+    }
+
+    @include mq($phablet) {
+        @include font-size(16px);
+    }
 }
 
 a {
@@ -145,6 +153,13 @@ button {
     }
 }
 
+.highlight {
+    padding: 2px 20px;
+    background-color: $theme-color;
+    color: $white-1;
+    border-radius: 20px;
+}
+
 .themeButton {
     display: inline-block;
     transition: all 0.2s;
@@ -153,9 +168,9 @@ button {
     width: 100%;
     max-width: none;
     z-index: 0;
-    max-width: 400px;
-    padding: 17px 0px;
-    border-radius: 50%;
+    max-width: fit-content;
+    padding: 17px 60px;
+    border-radius: 100px;
     background: $white-1;
     @include font-size(20px);
     font-weight: 600 !important;
@@ -169,10 +184,25 @@ button {
         color: $white-1;
     }
 
+    @include mq($tablet) {
+        @include font-size(16px);
+            padding: 12px 40px;
+    }
+
     // &:active {
     //   background-color: rgba(0, 255, 234, 0.3);
     //   color: $theme-color;
     // }
+}
+
+.themeButton.dark {
+    background-color: $black-1;
+    color: $white-1;
+
+    &:hover {
+        background-color: $theme-color;
+        color: $white-1;
+    }
 }
 
 .themeColor {
