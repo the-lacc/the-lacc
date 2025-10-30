@@ -15,7 +15,7 @@
 }
 
 .icon {
-        @include transition();
+    @include transition();
     display: block;
     width: 133px;
     overflow: hidden;
@@ -28,5 +28,9 @@
 
     & svg {
         overflow: hidden;
+    }
+
+    @include mq($tablet-large) {
+        width: 100px;
     }
 }

@@ -1,2 +1,28 @@
 /* ---- Offer ---- */
 @import "@resources";
+
+.offer {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.wrapper {
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('/img/offer/background.jpg') no-repeat center top / cover;
+    padding: 150px 0 200px 0;
+}
+
+.title {
+    display: block;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.description {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.button {
+    margin: 30px auto 0;
+}
