@@ -71,7 +71,7 @@ const Footer: FC = () => {
                             </li>
                         </ul>
                     </div>
-                    <div className={styles.right} data-aos="fade-left">
+                    <div className={styles.right} data-aos="fade-right">
                         <Button text="Start Project" href="#contact" className={styles.button}/>
                         <div className={styles.socials}>
                             <a href="https://instagram.com" className={styles.social} target='_blank'>

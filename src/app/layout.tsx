@@ -12,6 +12,11 @@ import getConfig from "../../next-seo.config";
 
 import { GoogleAnalytics, GoogleTagManager } from "@next/third-parties/google";
 
+import 'swiper/css';
+import 'swiper/css/navigation';
+import 'swiper/css/pagination';
+import 'swiper/css/scrollbar';
+
 const montserrat = Montserrat({
   subsets: ["latin"],
   display: "swap",
