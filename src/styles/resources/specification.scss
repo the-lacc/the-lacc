@@ -23,7 +23,7 @@ html {
 
 body {
     @include reset-indents();
-    background: #000;
+    background: #111;
     @include font-size($font-size);
     font-weight: $font-weight;
     color: $font-color;
@@ -186,7 +186,7 @@ button {
 
     @include mq($tablet) {
         @include font-size(16px);
-            padding: 12px 40px;
+        padding: 12px 40px;
     }
 
     // &:active {

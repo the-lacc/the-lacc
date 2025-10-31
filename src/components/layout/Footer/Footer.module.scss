@@ -1,2 +1,119 @@
 /* ---- Footer ---- */
 @import '@resources';
+
+.wrapper {
+    padding: 100px 0;
+}
+
+.container {
+    @include flexible();
+    justify-content: space-between;
+    align-items: flex-start;
+
+    @include mq($tablet) {
+        flex-direction: column;
+        align-items: center;
+        row-gap: 30px;
+    }
+}
+
+.title {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    row-gap: 10px;
+    margin-top: 30px;
+
+    @include mq($tablet) {
+        text-align: center;
+    }
+}
+
+.email,
+.phone,
+.link {
+    @include transition();
+
+    &:hover {
+        @include transition();
+        color: $theme-color;
+    }
+}
+
+.phone,
+.email {
+    text-decoration: underline;
+}
+
+.socials {
+    @include flexible();
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.social {
+    @include transition();
+    display: block;
+    width: 50px;
+    height: 50px;
+
+    @include mq($tablet-large) {
+        width: 40px;
+        height: 40px;
+    }
+
+    &:hover svg {
+        @include transition();
+
+        & g {
+            @include transition();
+            fill: $theme-color;
+        }
+
+        & path {
+            @include transition();
+            fill: $theme-color;
+        }
+    }
+}
+
+.copyright {
+    margin-top: 100px;
+    text-align: center;
+
+    @include mq($tablet) {
+        margin-top: 0;
+
+        & br {
+            display: none;
+        }
+    }
+}
+
+.logo {
+    width: 208px;
+
+    @include mq($laptop) {
+        width: 130px;
+    }
+
+    @include mq($tablet) {
+        width: 170px;
+    }
+}
+
+.button {
+    @include mq($tablet-large) {
+        @include font-size(16px);
+        padding: 12px 40px !important;
+    }
+
+    @include mq($tablet) {
+        padding: 17px 60px;
+    }
+}

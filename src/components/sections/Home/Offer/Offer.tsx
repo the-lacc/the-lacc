@@ -13,8 +13,8 @@ const Offer: FC = () => {
         <section className={styles.wrapper} id="offer">
             <div className="container">
                 <div className={styles.offer}>
-                    <h1 className={styles.title}>Lorem Ipsum Ipsum <span className='highlight'>Etc</span> Btc</h1>
-                    <p className={styles.description}>Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc</p>
+                    <h1 className={styles.title} data-aos="fade-up">Lorem Ipsum Ipsum <span className='highlight'>Etc</span> Btc</h1>
+                    <p className={styles.description} data-aos="fade-down">Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc</p>
                     <Button text="Start Project" href="#contact" className={styles.button}/>
                 </div>
             </div>

@@ -6,10 +6,14 @@ import LogoIcon from '@img/logo.svg'
 import anchorClick from '@helpers/anchorClick';
 import styles from './Logo.module.scss';
 
-const Logo: FC = () => {
+type Props = {
+    iconClassName?: string
+}
+
+const Logo: FC<Props> = ({iconClassName}) => {
     return (
         <a href="#offer" className={styles.wrapper} onClick={anchorClick} data-aos="zoom-in">
-            <div className={styles.icon}>
+            <div className={`${styles.icon} ${iconClassName}`}>
                 <LogoIcon />
             </div>
             {/* <div className={styles.icon}>
