@@ -15,7 +15,7 @@ const Button: FC<Props> = ({className, text, href, type = 'white'}) => {
     }
 
     return (
-        <a href={href} className={`${className} themeButton ${type}`} onClick={anchorHandleClick}>
+        <a href={href} className={`themeButton ${className} ${type}`} onClick={anchorHandleClick} data-aos="zoom-in">
             {text}
         </a>
     )
