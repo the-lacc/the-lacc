@@ -180,6 +180,7 @@ button {
     text-transform: uppercase;
 
     &:hover {
+        @include transition();
         background-color: $theme-color;
         color: $white-1;
     }

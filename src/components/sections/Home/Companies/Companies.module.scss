@@ -2,7 +2,15 @@
 @import '@resources';
 
 .wrapper {
-    padding: 50px 0;
+    padding: $section-gutter;
+
+    @include mq($tablet-large) {
+        padding: 50px 0;
+    }
+
+    @include mq($phone) {
+        padding: 30px 0;
+    }
 }
 
 .slide {
