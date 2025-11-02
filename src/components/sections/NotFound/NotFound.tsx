@@ -10,7 +10,7 @@ const NotFound: FC = () => {
         <div className={styles.wrapper} data-aos="fade-down">
             <p className={styles.description}>This page does not exists!</p>
             <Link href="/">
-                <button type="button" className={`${styles.button} themeButton`}>
+                <button type="button" className={`${styles.button} themeButton`} aria-label="Back">
                     Back
                 </button>
             </Link>
