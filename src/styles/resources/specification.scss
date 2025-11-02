@@ -210,9 +210,9 @@ button {
     color: $theme-color;
 }
 
-input {
-    @include font-size(25px);
-    @include beam();
+input,
+textarea {
+    @include font-size(20px);
     font-weight: 600;
     transition: border 0.3s ease;
     padding: 15px 25px;
@@ -228,6 +228,10 @@ input {
     &:focus {
         transition: border 0.3s ease;
         border-color: #fff;
+    }
+
+    @include mq($tablet) {
+        @include font-size(16px);
     }
 }
 

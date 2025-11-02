@@ -8,11 +8,11 @@ const Process: FC = () => {
     return (
         <section className={styles.wrapper} id="process">
             <div className="container">
-                <div className={styles.row}>
+                <div className={styles.row} data-aos="fade-right">
                     <h2 className={styles.title}>Process <br /> <span className='highlight'>Lorem</span> Ipsum Sectors</h2>
                     <Button text="Start Project" href="#contact" type='dark' className={styles.button}/>
                 </div>
-                <ul className={styles.list}>
+                <ul className={styles.list} data-aos="zoom-in">
                     <li className={styles.item}>
                         <div className={styles.number}>
                             <p className={styles.text}>1</p>

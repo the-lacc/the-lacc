@@ -19,11 +19,11 @@ const Services: FC = () => {
     return (
         <section className={styles.wrapper} id="services">
             <div className="container">
-                <div className={styles.row}>
+                <div className={styles.row} data-aos="fade-up">
                     <h2 className={styles.title}>Services <br />Lorem Ipsum <span className='highlight'>Sectors</span></h2>
                     <Button text="Start Project" href="#contact" className={styles.button}/>
                 </div>
-                <div className={styles.container}>
+                <div className={styles.container} data-aos="fade-right">
                     <button type="button" aria-label="Previous" className={styles.previous} onClick={() => swiperRef.current?.slidePrev()}>
                         <div className={styles.icon}>
                             <PreviousIcon />
