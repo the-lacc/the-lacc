@@ -5,6 +5,7 @@ import Offer from './Offer/Offer'
 import Companies from './Companies/Companies'
 import About from './About/About'
 import Services from './Services/Services'
+import Process from './Process/Process'
 
 const Home: FC = () => {
     return (
@@ -13,6 +14,7 @@ const Home: FC = () => {
             <Companies />
             <About />
             <Services />
+            <Process />
         </>
     )
 }
