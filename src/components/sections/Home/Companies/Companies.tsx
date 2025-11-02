@@ -35,8 +35,6 @@ const Companies: FC = () => {
                     }
                 }}
                 allowTouchMove={false}
-                onSlideChange={() => console.log('slide change')}
-                onSwiper={(swiper) => console.log(swiper)}
                 >
                     <SwiperSlide className={styles.slide}>
                         <div className={styles.image}>
