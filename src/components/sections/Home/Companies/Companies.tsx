@@ -21,7 +21,7 @@ const Companies: FC = () => {
                     pauseOnMouseEnter: false
                 }}
                 breakpoints={{
-                    320: {
+                    0: {
                         slidesPerView: 1
                     },
                     500: {
