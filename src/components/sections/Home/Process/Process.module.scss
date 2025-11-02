@@ -1,0 +1,99 @@
+/* ---- Process ---- */
+@import '@resources';
+
+.wrapper {
+    background: $gray-1;
+    color: $black-1;
+    padding-top: $section-gutter;
+
+    @include mq($tablet-large) {
+        padding-top: 50px;
+    }
+
+    @include mq($phone) {
+        padding-top: 30px;
+    }
+}
+
+.row {
+    @include flexible();
+    justify-content: space-between;
+
+    @include mq($tablet) {
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: center;
+        row-gap: 30px;
+        text-align: center;
+    }
+}
+
+.button {
+    @include mq($tablet) {
+        margin: 0 auto;
+    }
+}
+
+.title {
+    text-transform: uppercase;
+
+    @include mq(1000) {
+        & br {
+            display: none;
+        }
+    }
+}
+
+.list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 50px;
+    margin-top: 50px;
+
+    @include mq($tablet-large) {
+        grid-template-columns: repeat(4, rem(250));
+        overflow-x: scroll;
+
+        &::-webkit-scrollbar {
+            display: none;
+        }
+    }
+}
+
+.item {
+    @include flexible();
+    align-items: flex-start;
+    column-gap: 20px;
+}
+
+.number {
+    display: block;
+    position: relative;
+    width: 300px;
+    height: 100px;
+    border-radius: 50px;
+    background: $theme-color;
+    pointer-events: none;
+
+    @include mq($tablet-large) {
+        width: 400px;
+        height: 70px;
+    }
+}
+
+.text {
+    @include center-element();
+    @include font-size(50px);
+    font-weight: 600;
+    color: #fff;
+    pointer-events: none;
+}
+
+.description {
+    @include font-size(20px);
+    margin-top: 10px;
+
+    @include mq($tablet) {
+        @include font-size(16px);
+    }
+}
