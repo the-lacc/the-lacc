@@ -1,7 +1,9 @@
 import { FC } from 'react';
 import Image from 'next/image';
 
-import Icon from '@img/about/icon.svg'
+import ProjectIcon from '@img/about/project.svg'
+import ClockIcon from '@img/about/clock.svg'
+import SearchIcon from '@img/about/search.svg'
 
 import Button from '@components/ui/Button/Button';
 
@@ -13,8 +15,8 @@ const About: FC = () => {
             <div className="container">
                 <div className={styles.about}>
                     <div className={styles.content} data-aos="fade-right">
-                        <h2 className={styles.title}>Construction <span className='highlight'>Lorem</span> Ipsum Sectors</h2>
-                        <p className={styles.description}>Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc</p>
+                        <h2 className={styles.title}>About <span className='highlight'>The LACC</span></h2>
+                        <p className={styles.description}>At The LACC, we believe that construction should be structured, transparent, and stress-free for the client. With experience across retail, office, industrial, and mixed-use spaces, we manage every phase — planning, scheduling, permitting, inspections, and delivery.</p>
                         <Button text="Start Project" href="#contact" type='dark' className={styles.button}/>
                     </div>
                     <div className={styles.image} data-aos="zoom-in">
@@ -24,40 +26,40 @@ const About: FC = () => {
                 <ul className={styles.list}>
                     <li className={styles.item}>
                         <div className={styles.icon}>
-                            <Icon />
+                            <ProjectIcon />
                         </div>
                         <div className={styles.subcontent}>
-                            <h3 className={styles.subtitle}>10M+</h3>
-                            <p className={styles.subdesc}>lorem ipsum</p>
+                            <h3 className={styles.subtitle}>Projects Delivered</h3>
+                            <p className={styles.subdesc}>30+ completed commercial build-outs.</p>
                         </div>
                     </li>
                     <li className={styles.item}>
                         <div className={styles.icon}>
-                            <Icon />
+                            <ClockIcon />
                         </div>
                         <div className={styles.subcontent}>
-                            <h3 className={styles.subtitle}>10M+</h3>
-                            <p className={styles.subdesc}>lorem ipsum</p>
+                            <h3 className={styles.subtitle}>On-Time Execution</h3>
+                            <p className={styles.subdesc}>Schedules maintained without delays.</p>
                         </div>
                     </li>
                     <li className={styles.item}>
                         <div className={styles.icon}>
-                            <Icon />
+                            <SearchIcon />
                         </div>
                         <div className={styles.subcontent}>
-                            <h3 className={styles.subtitle}>10M+</h3>
-                            <p className={styles.subdesc}>lorem ipsum</p>
+                            <h3 className={styles.subtitle}>Inspection Ready</h3>
+                            <p className={styles.subdesc}>First-pass approval standard across sites.</p>
                         </div>
                     </li>
-                    <li className={styles.item}>
+                    {/* <li className={styles.item}>
                         <div className={styles.icon}>
                             <Icon />
                         </div>
                         <div className={styles.subcontent}>
-                            <h3 className={styles.subtitle}>10M+</h3>
-                            <p className={styles.subdesc}>lorem ipsum</p>
+                            <h3 className={styles.subtitle}>Trusted Coordination</h3>
+                            <p className={styles.subdesc}>One accountable GC managing all trades.</p>
                         </div>
-                    </li>
+                    </li> */}
                 </ul>
             </div>
         </section>

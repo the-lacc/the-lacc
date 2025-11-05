@@ -60,20 +60,20 @@ const Footer: FC = () => {
                         <h3 className={styles.title}>Contacts</h3>
                         <ul className={styles.list}>
                             <li className={styles.item}>
-                                <a href="tel:+8225445254" className={styles.phone} onClick={anchorHandleClick}>
-                                    +822 544 5254
+                                <a href="tel:+16516051787" className={styles.phone} onClick={anchorHandleClick}>
+                                    +1 (651) 605-1787
                                 </a>
                             </li>
                             <li className={styles.item}>
-                                <a href="mailto:info@laac.com" className={styles.email} onClick={anchorHandleClick}>
-                                    info@laac.com
+                                <a href="mailto:lagutin.m@thelacc.com" className={styles.email} onClick={anchorHandleClick}>
+                                    lagutin.m@thelacc.com
                                 </a>
                             </li>
                         </ul>
                     </div>
                     <div className={styles.right} data-aos="fade-right">
                         <Button text="Start Project" href="#contact" className={styles.button}/>
-                        <div className={styles.socials}>
+                        {/* <div className={styles.socials}>
                             <a href="https://instagram.com" className={styles.social} target='_blank'>
                                 <InstagramIcon />
                             </a>
@@ -83,7 +83,7 @@ const Footer: FC = () => {
                             <a href="https://telegram.com" className={styles.social} target='_blank'>
                                 <TelegramIcon />
                             </a>
-                        </div>
+                        </div> */}
                     </div>
                     {window.screen.width <= 768 && <p className={styles.copyright}>© {getAppWorkYears(2025)} The LACC Inc. <br/>All rights reserved.</p>}
                 </div>

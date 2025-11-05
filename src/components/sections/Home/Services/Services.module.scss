@@ -26,6 +26,11 @@
     }
 }
 
+.desc {
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
 .button {
     @include mq($tablet) {
         margin: 0 auto;
