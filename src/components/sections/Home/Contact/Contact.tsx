@@ -37,7 +37,7 @@ const Contact: FC = () => {
             <div className="container">
                 <div className={styles.column} data-aos="fade-down">
                     <h2 className={styles.title}>Start your <span className='highlight'>project</span></h2>
-                    <p className={styles.description}>lorem ipsum etc btc lorem ipsum etc btc lorem ipsum etc btc lorem ipsum etc btc lorem ipsum</p>
+                    <p className={styles.description}>Share your project details — we’ll outline scope, budget, and schedule.</p>
                 </div>
                 <div className={styles.row} data-aos="fade-right">
                     <form className={styles.form} onSubmit={handleSubmit}>

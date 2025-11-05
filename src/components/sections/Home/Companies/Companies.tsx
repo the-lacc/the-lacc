@@ -38,27 +38,27 @@ const Companies: FC = () => {
                 >
                     <SwiperSlide className={styles.slide}>
                         <div className={styles.image}>
-                            <Image src="/img/companies/fedex.png" blurDataURL='/img/companies/fedex.png' placeholder='blur' layout='fill' alt="FedEx" />
+                            <Image src="/img/companies/1.png" blurDataURL='/img/companies/fedex.png' placeholder='blur' layout='fill' alt="FedEx" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className={styles.slide}>
                         <div className={styles.image}>
-                            <Image src="/img/companies/fedex.png" blurDataURL='/img/companies/fedex.png' placeholder='blur' layout='fill' alt="FedEx" />
+                            <Image src="/img/companies/2.png" blurDataURL='/img/companies/fedex.png' placeholder='blur' layout='fill' alt="FedEx" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className={styles.slide}>
                         <div className={styles.image}>
-                            <Image src="/img/companies/fedex.png" blurDataURL='/img/companies/fedex.png' placeholder='blur' layout='fill' alt="FedEx" />
+                            <Image src="/img/companies/3.png" blurDataURL='/img/companies/fedex.png' placeholder='blur' layout='fill' alt="FedEx" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className={styles.slide}>
                         <div className={styles.image}>
-                            <Image src="/img/companies/fedex.png" blurDataURL='/img/companies/fedex.png' placeholder='blur' layout='fill' alt="FedEx" />
+                            <Image src="/img/companies/4.png" blurDataURL='/img/companies/fedex.png' placeholder='blur' layout='fill' alt="FedEx" />
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className={styles.slide}>
                         <div className={styles.image}>
-                            <Image src="/img/companies/fedex.png" blurDataURL='/img/companies/fedex.png' placeholder='blur' layout='fill' alt="FedEx" />
+                            <Image src="/img/companies/3.png" blurDataURL='/img/companies/fedex.png' placeholder='blur' layout='fill' alt="FedEx" />
                         </div>
                     </SwiperSlide>
             </Swiper>

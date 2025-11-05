@@ -59,7 +59,7 @@ const Header: FC<Props> = ({ isSticky, headerRef }) => {
                         </li>
                     </ul>
                     <div className={styles.right}>
-                        <a href="mailto:info@laac.com" className={styles.email}>info@laac.com</a>
+                        <a href="mailto:lagutin.m@thelacc.com" className={styles.email}>lagutin.m@thelacc.com</a>
                         <button type="button"
                                 aria-label="Toggle Menu"
                                 className={`${styles.open_btn} ${isOpen ? styles.close_btn : ''}`}

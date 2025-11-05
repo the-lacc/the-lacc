@@ -13,8 +13,8 @@ const Offer: FC = () => {
         <section className={styles.wrapper} id="offer">
             <div className="container">
                 <div className={styles.offer} data-aos="fade-down">
-                    <h1 className={styles.title}>Lorem Ipsum Ipsum <span className='highlight'>Etc</span> Btc</h1>
-                    <p className={styles.description}>Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc Lorem Ipsum Ipsum Etc Btc</p>
+                    <h1 className={styles.title}>Commercial <span className='highlight'>Renovation</span> & Build-Out</h1>
+                    <p className={styles.description}>Professional renovations and build-outs for retail, office, and industrial spaces. Coordinated trades, clean execution, and on-time delivery with one accountable GC.</p>
                     <Button text="Start Project" href="#contact" className={styles.button}/>
                 </div>
             </div>

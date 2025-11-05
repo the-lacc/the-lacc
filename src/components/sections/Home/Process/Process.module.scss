@@ -62,23 +62,38 @@
 
 .item {
     @include flexible();
-    align-items: flex-start;
+
     column-gap: 20px;
 }
 
-.number {
-    display: block;
-    position: relative;
-    width: 300px;
-    height: 100px;
-    border-radius: 50px;
-    background: $theme-color;
-    pointer-events: none;
+// .number {
+//     display: block;
+//     position: relative;
+//     width: 200px;
+//     height: 100px;
+//     border-radius: 50px;
+//     background: $theme-color;
+//     pointer-events: none;
 
-    @include mq($tablet-large) {
-        width: 400px;
-        height: 70px;
-    }
+//     @include mq($tablet-large) {
+//         width: 400px;
+//         height: 70px;
+//     }
+// }
+
+.number {
+  box-sizing: border-box;
+  width: 72px;           // любое одинаковое значение
+  height: 72px;          // то же, что width
+  border-radius: 50%;    // круг
+  background: $theme-color;
+  position: relative;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-shrink: 0;
 }
 
 .text {

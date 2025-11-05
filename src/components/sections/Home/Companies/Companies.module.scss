@@ -2,7 +2,7 @@
 @import '@resources';
 
 .wrapper {
-    padding: $section-gutter;
+    padding: $section-gutter - 20;
 
     @include mq($tablet-large) {
         padding: 50px 0;
@@ -23,7 +23,7 @@
 
 .image {
     position: relative;
-    width: 118px;
-    height: 118px;
+    width: 150px;
+    height: 150px;
     margin: 0 auto;
 }
